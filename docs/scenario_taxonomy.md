@@ -41,9 +41,9 @@
 
 | Category | Target Scenario Count | Current Progress |
 | :--- | :---: | :---: |
-| **Category 1:** Sensitive Information Disclosure | 4 | 0 / 4 |
+| **Category 1:** Sensitive Information Disclosure | 4 | 4 / 4 (Complete) |
 | **Category 2:** Privilege Escalation | 4 | 0 / 4 |
 | **Category 3:** Policy Circumvention | 4 | 0 / 4 |
-| **Category 4:** Insider Misuse | 4 | 1 / 4 (Template Created) |
+| **Category 4:** Insider Misuse | 4 | 0 / 4 (Template Migrated) |
 | **Category 5:** Tool-Using Agent Risk | 4 | 0 / 4 |
-| **Total Target** | **20** | **1 / 20** |
+| **Total Target** | **20** | **4 / 20** |
