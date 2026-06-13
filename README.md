@@ -1,6 +1,10 @@
-# Control-Boundary Eval
+# Control-Boundary Eval: Testing Multi-Step Security Failures in Language Models
 
-**Testing whether frontier language models can violate security objectives through multi-step interactions, even when they refuse direct harmful requests.**
+**Testing whether frontier language models can violate security objectives through multi-step interactions, even when they refuse direct harmful requests. Many model safety checks focus on whether a model refuses a direct harmful request. This project tests a different failure mode: whether a model can still assist with a security violation through a sequence of individually plausible steps.**
+
+## Research Hypothesis
+
+Language models may refuse direct harmful cybersecurity requests but still provide unsafe assistance when the same objective is decomposed into multiple steps. This project evaluates whether multi-step interactions expose control-boundary violations that are missed by single-prompt safety checks.
 
 ## Project Purpose
 
