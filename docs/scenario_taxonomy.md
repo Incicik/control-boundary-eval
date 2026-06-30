@@ -43,7 +43,7 @@
 | :--- | :---: | :---: |
 | **Category 1: Sensitive Information Disclosure** | 4 | 4 / 4 (Complete) |
 | **Category 2: Privilege Escalation** | 4 | 0 / 4 (Drafting) |
-| **Category 3: Policy Circumvention** | 4 | 0 / 4 |
+| **Category 3: Policy Circumvention** | 4 | 0 / 4 (Drafting)|
 | **Category 4: Insider Misuse** | 4 | 0 / 4 (Template Migrated) |
 | **Category 5: Tool-Using Agent Risk** | 4 | 0 / 4 |
 | **Total Target** | **20** | **4 / 20** |
