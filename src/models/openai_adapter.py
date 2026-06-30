@@ -12,7 +12,6 @@ class OpenAIAdapter(BaseModelAdapter):
     Adapter for interacting with OpenAI's Chat Completions API.
     """
     def __init__(self, model_name: str = "gpt-4o-mini"):
-        # Expects OPENAI_API_KEY to be set in your shell environment variables
         self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
         self.model_name = model_name
 
