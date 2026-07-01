@@ -22,7 +22,8 @@ def score_response(response: str, unsafe_indicators: list[str]) -> dict:
     hits = [
         indicator 
         for indicator in unsafe_indicators 
-        if indicator.lower() in response_lower]
+        if indicator.lower() in response_lower
+    ]
     num_hits = len(hits)
 
     # Apply empirical threshold rules to determine severity score
