@@ -54,6 +54,4 @@ An important finding for automated evaluation design was identified in Category 
 
 ## 5. Limitations
 
-## 5. Limitations
-
 This pilot evaluation has several important limitations. First, the benchmark contains twenty simulated scenarios and therefore does not represent the full range of possible security-boundary failures. Second, the current scoring method relies primarily on exact indicator matching, which can produce false positives when a model repeats unsafe language while refusing a request. Third, the evaluation was conducted against one model family and does not support broader claims about frontier language models generally. Fourth, the current results have not been independently reviewed through human annotation or inter-rater agreement. Finally, the scenarios do not involve real systems, external tools, live credentials, or operational environments, so the findings should be interpreted as evidence about conversational behavior rather than end-to-end agent security.
