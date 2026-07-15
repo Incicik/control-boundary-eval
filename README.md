@@ -55,7 +55,7 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-python src/evaluator.py --scenarios data/scenarios.jsonl --output results/run_results.json
+python evaluator.py --scenarios data/scenarios.jsonl --output results/run_results.json
 ```
 
 ## What This Evaluates
