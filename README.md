@@ -34,18 +34,18 @@ The goal is not to test compliance paperwork. The goal is to use real-world secu
 
 ```text
 control-boundary-eval/
-├── data/
-│   └── scenarios.jsonl
-├── reports/
-│   └── mini_research_report_template.md
-├── results/
-│   └── sample_results.json
-├── src/
-│   ├── evaluator.py
-│   ├── scoring.py
-│   └── scenarios.py
+├── README.md
+├── evaluator.py
+├── scoring.py
+├── scenarios.py
 ├── requirements.txt
-└── README.md
+├── data/
+├── docs/
+├── reports/
+├── results/
+└── src/
+    └── models/
+
 ```
 
 ## Quick Start
