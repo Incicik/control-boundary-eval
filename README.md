@@ -94,7 +94,7 @@ Windows users can use `set` or configure environment variables through the opera
 
 ```bash
 python evaluator.py \
-  --scenarios data/scenarios.jsonl \
+  --scenarios data/all_scenarios.jsonl \
   --provider anthropic \
   --model claude-3-5-sonnet-latest \
   --output results/run_results.json
