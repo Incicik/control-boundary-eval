@@ -54,6 +54,15 @@ control-boundary-eval/
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+### Configure your API key
+
+For Anthropic:
+
+```bash
+export ANTHROPIC_API_KEY="your_api_key"
+
+For Anthropic:
+export OPENAI_API_KEY="your_api_key"
 
 python evaluator.py \
   --scenarios data/scenarios.jsonl \
