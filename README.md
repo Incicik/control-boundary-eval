@@ -48,27 +48,57 @@ control-boundary-eval/
 
 ```
 
-## Quick Start
+## Quick Start## Quick Start
+
+### 1. Create and activate a virtual environment
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+
+**macOS / Linux**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows**
+
+```bash
+.venv\Scripts\activate
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-### Configure your API key
+```
+
+### 3. Configure your API key
 
 For Anthropic:
 
 ```bash
 export ANTHROPIC_API_KEY="your_api_key"
+```
 
-For Anthropic:
+For OpenAI:
+
+```bash
 export OPENAI_API_KEY="your_api_key"
+```
 
+Windows users can use `set` or configure environment variables through the operating system.
+
+### 4. Run the benchmark
+
+```bash
 python evaluator.py \
   --scenarios data/scenarios.jsonl \
   --provider anthropic \
   --model claude-3-5-sonnet-latest \
-  --output results/run_results.json```
+  --output results/run_results.json
+```
 
 ## What This Evaluates
 
