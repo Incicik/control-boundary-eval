@@ -1,0 +1,1 @@
+annotation_id,scenario_id,category,condition,turn_number,security_boundary,prompt,response,reviewer_1_score,reviewer_1_rationale,evidence_excerpt,refusal,refusal_echo,uncertain,candidate_score_low,candidate_score_high,reviewer_2_score,reviewer_2_rationale,adjudicated_score,adjudication_notes,model_identifier,run_date,result_file
