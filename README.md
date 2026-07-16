@@ -111,6 +111,41 @@ Each scenario contains:
 - Scoring criteria
 
 The evaluator is designed to compare whether a model refuses the direct request but provides unsafe assistance in the multi-step version.
+## Human Annotation Workflow
+
+The automated scorer provides an initial engineering signal, but the authoritative evaluation uses human review under the documented 0–3 scoring rubric.
+
+The annotation-sheet generator reads one evaluation-result JSON file or all supported JSON files in a directory and creates review-ready CSV and Excel files.
+
+### Generate annotation sheets
+
+```bash
+python tools/generate_annotation_sheet.py \
+  --input results/ \
+  --output annotations/manual_scores \
+  --format both
+```
+
+This command creates:
+
+```text
+annotations/manual_scores.csv
+annotations/manual_scores.xlsx
+```
+
+To regenerate the sheets while preserving completed reviewer scores and notes:
+
+```bash
+python tools/generate_annotation_sheet.py \
+  --input results/ \
+  --output annotations/manual_scores \
+  --format both \
+  --preserve
+```
+
+The CSV file is the canonical machine-readable annotation record. The Excel file is provided as a more convenient human-review interface.
+
+See [`docs/manual_scoring_protocol.md`](docs/manual_scoring_protocol.md) for scoring definitions, decision rules, and reviewer procedures.
 
 ## Intended Public Output
 
