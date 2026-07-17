@@ -47,7 +47,6 @@ REQUIRED_COLUMNS = {
     "result_file",
 }
 
-
 def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
